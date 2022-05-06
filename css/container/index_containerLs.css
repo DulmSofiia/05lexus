@@ -1,0 +1,1132 @@
+@charset "utf-8";
+/*container*/
+.container{
+  width: 100vw;
+  height: auto;
+  margin-top: 100px;
+}
+.container .inner-container{
+  border: 0;
+}
+.container .inner-container .indexContainer{
+  width: 100%;
+  height: auto;
+}
+.container .inner-container .indexContainer .sections{
+}
+/*SECTION1*/
+.container .inner-container .indexContainer .sections .section.sec1{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.container .inner-container .indexContainer .sections .section.sec1 .sec-con{
+  flex: 0 1 1920px;
+  height: 680px;
+  position: relative;
+  /* box-sizing: border-box; */
+  /* overflow: hidden; */
+}
+/*Gallery*/
+.container .inner-container .indexContainer .sections .section.sec1 .sec-con .gallery{
+  width: 100%;
+  height: inherit;
+  position: absolute;
+}
+.container .inner-container .indexContainer .sections .section.sec1 .sec-con .gallery>ul{
+  height: inherit;
+}
+.container .inner-container .indexContainer .sections .section.sec1 .sec-con .gallery>ul>li{
+  width: 100%;
+  height: inherit;
+  position: absolute;
+  box-sizing: border-box;
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  /* background-color: lightblue; */
+  padding: 100px;
+}
+.fadeLi{
+  visibility: visible;
+  opacity: 1 !important;
+}
+.container .inner-container .indexContainer .sections .section.sec1 .sec-con .gallery>ul>li>a{
+  color: #fff;
+  font-size: 80px;
+}
+.container .inner-container .indexContainer .sections .section.sec1 .sec-con .gallery>ul>li .txt-con{
+  margin-top: 60px;
+}
+.container .inner-container .indexContainer .sections .section.sec1 .sec-con .gallery>ul>li .txt-con>p{
+  font-size: 30px;
+  color: #fff;
+  line-height: 40px;
+  font-weight: bold;
+}
+.gallery-ani{
+  transition: all 1s;
+}
+/*span.arrow*/
+.container .inner-container .indexContainer .sections .section.sec1 .sec-con .center-btn{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0 20px; */
+}
+.container .inner-container .indexContainer .sections .section.sec1 .sec-con .center-btn span.arrow{
+  display: block;
+  font-size: 50px;
+  color: rgb(176, 194, 255);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.container .inner-container .indexContainer .sections .section.sec1 .sec-con .center-btn span.arrow:hover{
+  background-color: rgba(41, 41, 41, 0.5);
+  border-radius: 3px;
+  transform: scale(1.1);
+}
+/*Items>ul>li*/
+.container .inner-container .indexContainer .sections .section.sec1 .sec-con .bCon{
+  width: 100%;
+  height: auto;
+  border: 0;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+.container .inner-container .indexContainer .sections .section.sec1 .sec-con .bCon .items{
+  width: 150px;
+  height: auto;
+  transition: all 0.2s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .inner-container .indexContainer .sections .section.sec1 .sec-con .bCon .items .btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .inner-container .indexContainer .sections .section.sec1 .sec-con .bCon .items .btn>ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .inner-container .indexContainer .sections .section.sec1 .sec-con .bCon .items .btn>ul>li{
+  width: 30px;
+  height: 30px;
+}
+.container .inner-container .indexContainer .sections .section.sec1 .sec-con .bCon .items .btn>ul>li img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.container .inner-container .indexContainer .sections .section.sec1 .sec-con .bCon .items .btn>ul>li img.stBtn{
+  display: none;
+}
+.container .inner-container .indexContainer .sections .section.sec1 .sec-con .bCon .items>ul{
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.container .inner-container .indexContainer .sections .section.sec1 .sec-con .bCon .items>ul>li{
+  width: 10px;
+  height: 10px;
+  border: 1px solid rgb(176, 194, 255);
+  border-radius: 50%;
+  transition: all 0.2s;
+} 
+.container .inner-container .indexContainer .sections .section.sec1 .sec-con .bCon .items>ul>li:hover{
+  background-color: rgb(255, 255, 255);
+}
+.on{
+  background-color: rgb(176, 194, 255);
+}
+/*SECTION2*/
+.container .inner-container .indexContainer .sections .section.sec2{
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 0 0;
+}
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con{
+  flex: 0 1 1280px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .top-con{
+  width: 100%;
+  height: auto;
+  /* margin: 0 auto; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid; */
+}
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .top-con .tName{
+  width: 800px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid; */
+  padding: 20px 0;
+  cursor: pointer;
+}
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .tName h1.title{
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+}
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .tName h2.title{
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .tName h1.title::after{
+  display: block;
+  content: '';
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  background-color: #000;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .4s linear;
+} 
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .tName h1.title:hover::after{
+  width: 100%;
+  opacity: 1;
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform .4s linear;
+}
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .tName h2.title::after{
+  display: block;
+  content: '';
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  background-color: #000;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .4s linear;
+} 
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .tName h2.title:hover::after{
+  width: 100%;
+  opacity: 1;
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform .4s linear;
+}
+
+
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .top-con .inf-con{
+  width: 100%;
+  height: auto;
+}
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .top-con .inf-con .price-con{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid #999; */
+  box-sizing: border-box;
+}
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .top-con .inf-con .price-con .inf-top{
+  width: 100%;
+  height: auto;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+}
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .top-con .inf-con .price-con .inf-top>ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* border: 1px solid; */
+  box-sizing: border-box;
+  padding: 5px 0;
+  border-top: 1px solid rgb(185, 185, 185);
+}
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .top-con .inf-con .price-con .inf-top>ul>li{
+  font-size: 11px;
+  color: rgb(134, 134, 134);
+  box-sizing: border-box;
+  text-align: left;
+  margin-right: 150px;
+  border-right: 1px solid rgb(134, 134, 134);
+  padding: 5px 10px;
+}
+/*inf-bottom*/
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .top-con .inf-con .price-con .inf-bottom{
+  width: 100%;
+  height: auto;
+}
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .top-con .inf-con .price-con .inf-bottom>ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  box-sizing: border-box;
+  padding: 5px 0;
+  background-color: rgb(235, 235, 235);
+  border-bottom: 1px solid rgb(185, 185, 185);
+}
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .top-con .inf-con .price-con .inf-bottom>ul>li{
+  box-sizing: border-box;
+  text-align: right;
+  padding: 5px 0;
+  margin-left: 130px;
+  border-right: 1px solid rgb(119, 119, 119);
+  padding-right: 10px;
+}
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .top-con .inf-con .price-con .inf-bottom>ul>li:nth-child(5){
+  border: 0;
+}
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .top-con .inf-con .compar-con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .top-con .inf-con .compar-con>li{
+  font-size: 16px;
+  color: #555;
+  border: 1px solid;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .top-con .inf-con .compar-con>li:hover{
+  background-color: #000;
+  color: #fff;
+}
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .top-con .inf-con .compar-con>li:active{
+  transform: scale(0.96);
+}
+/*bottom-con*/
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .bottom-con{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .bottom-con>ul{
+  display: flex;
+  justify-content: space-between;
+}
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .bottom-con>ul>li{
+  padding: 10px 30px;
+  font-size: 18px;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .bottom-con>ul>li>a{
+  color: #555;
+}
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .bottom-con>ul>li:nth-child(2)::after{
+  display: block;
+  content: '';
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 100%;
+  opacity: 1;
+  background-color: #555;
+  transform: scaleX(1);
+}
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .bottom-con>ul>li::after{
+  display: block;
+  content: '';
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  background-color: #555;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .4s linear;
+} 
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .bottom-con>ul>li:hover::after{
+  width: 100%;
+  opacity: 1;
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform .4s linear;
+}
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .bottom-con>ul>li.arr{
+  margin: 0 100px;
+  font-size: 20px;
+  color: #555;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.container .inner-container .indexContainer .sections .section.sec2 .sec-con .bottom-con>ul>li.arr:hover{
+  transform: scale(1.4);
+}
+/*SECTION3*/
+.container .inner-container .indexContainer .sections .section.sec3{
+  width: 100%;
+  height: auto;
+  padding: 20px 0 40px 0;
+  /* border: 2px solid #00ff00; */
+}
+.container .inner-container .indexContainer .sections .section.sec3>p{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  /* line-height: 20px; */
+  padding: 0 0 40px 10px;
+}
+.container .inner-container .indexContainer .sections .section.sec3>p.p1{
+  text-align: center;
+  font-size: 18px;
+  padding: 8px;
+  color: #ccc;
+}
+.container .inner-container .indexContainer .sections .section.sec3 .sec-con{
+  flex: 0 0 550px;
+  height: 230px;
+  position: relative;
+  box-sizing: border-box;
+}
+.container .inner-container .indexContainer .sections .section.sec3 .sec-con .galleryDesignLs{
+  width: 100%;
+  height: inherit;
+  position: absolute;
+}
+.container .inner-container .indexContainer .sections .section.sec3 .sec-con .galleryDesignLs .main{
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+}
+.container .inner-container .indexContainer .sections .section.sec3 .sec-con .galleryDesignLs .main ol{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container .inner-container .indexContainer .sections .section.sec3 .sec-con .galleryDesignLs .main ol input{
+  margin: 0 auto;
+  text-align: center;
+  border: 0;
+  background-color: #fff;
+  color: #888;
+  font-weight: lighter;
+  padding: 0 0 10px 0;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.3s;
+}
+.container .inner-container .indexContainer .sections .section.sec3 .sec-con .galleryDesignLs .main ol input:hover{
+  transform: scale(1.1);
+  color: #000;
+}
+.container .inner-container .indexContainer .sections .section.sec3 .sec-con .galleryDesignLs .main ol input:active{
+  transform: scale(0.9);
+  color: #000;
+}
+.container .inner-container .indexContainer .sections .section.sec3 .sec-con .galleryDesignLs .main img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.container .inner-container .indexContainer .sections .section.sec3 .sec-con .galleryDesignLs .main>ul{
+  /* flex: 0 0 300px; */
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* gap: 5px;  */
+}
+.container .inner-container .indexContainer .sections .section.sec3 .sec-con .galleryDesignLs .main>ul>li{
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin: 20px 0 0 0;
+}
+.container .inner-container .indexContainer .sections .section.sec3 .sec-con .galleryDesignLs .main>ul>li>img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.container .inner-container .indexContainer .sections .section.sec3 .sec-con .galleryDesignLs .main>ul>li:nth-child(1){
+  transform: scale(1.08);
+  box-shadow: 1px 1px 2px rgb(54, 54, 54);
+}
+.container .inner-container .indexContainer .sections .section.sec3 .sec-con .galleryDesignLs .main>ul>li:hover{
+  transform: scale(1.08);
+  box-shadow: 1px 1px 2px rgb(54, 54, 54);
+} 
+/*
+/* .container .inner-container .indexContainer .sections .section.sec3 .sec-con .galleryDesignLs>ul{
+  height: inherit;
+}
+.container .inner-container .indexContainer .sections .section.sec3 .sec-con .galleryDesignLs>ul>li{
+  width: 100%;
+  height: inherit;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .inner-container .indexContainer .sections .section.sec3 .sec-con .galleryDesignLs>ul>li:nth-child(1){
+  z-index: 1;
+} */
+/*designColor*/
+/* .container .inner-container .indexContainer .sections .section.sec3 .sec-con .galleryDesignLs .designColor{
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+.container .inner-container .indexContainer .sections .section.sec3 .sec-con .galleryDesignLs .designColor>ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+.container .inner-container .indexContainer .sections .section.sec3 .sec-con .galleryDesignLs .designColor>ul>li{
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin: 20px 0 0 0;
+}
+.container .inner-container .indexContainer .sections .section.sec3 .sec-con .galleryDesignLs .designColor>ul>li>img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.container .inner-container .indexContainer .sections .section.sec3 .sec-con .galleryDesignLs .designColor>ul>li:nth-child(1){
+  transform: scale(1.08);
+  box-shadow: 1px 1px 2px rgb(54, 54, 54);
+}
+.container .inner-container .indexContainer .sections .section.sec3 .sec-con .galleryDesignLs .designColor>ul>li:hover{
+  transform: scale(1.08);
+  box-shadow: 1px 1px 2px rgb(54, 54, 54);
+} */
+/* .container .inner-container .indexContainer .sections .section.sec3 .sec-con .galleryDesignLs .designColor>ul>li>p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  display: none;
+} */
+/*arrow*/
+/* .container .inner-container .indexContainer .sections .section.sec3 .sec-con .centerBtn1{
+  width: 60%;
+  height: auto;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  cursor: pointer;
+}
+.container .inner-container .indexContainer .sections .section.sec3 .sec-con .centerBtn1 span.arrow{
+  display: block;
+  width: 100px;
+  height: 100px;
+  color: rgb(180, 180, 180);
+  opacity: 0.3;
+  transition: all 0.3s;
+}
+.container .inner-container .indexContainer .sections .section.sec3 .sec-con .centerBtn1 span.arrow:hover{
+  opacity: 0.9;
+  transform: scale(1.09);
+}
+.container .inner-container .indexContainer .sections .section.sec3 .sec-con .centerBtn1 span.arrow>img{
+  width: 100%;
+  height: auto;
+  display: block;
+} */
+/*SECTION4*/
+.container .inner-container .indexContainer .sections .section.sec4{
+  width: 100%;
+  height: auto;
+  padding: 110px 0 20px 0;
+}
+.container .inner-container .indexContainer .sections .section.sec4 .gallery{
+  width: 100%;
+  height: auto;
+  border: 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.container .inner-container .indexContainer .sections .section.sec4 .gallery h1.title{
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+  padding-bottom: 20px;
+}
+.container .inner-container .indexContainer .sections .section.sec4 .gallery>p{
+  text-align: center;
+  color: #555;
+  font-size: 11px;
+  padding-bottom: 10px;
+}
+.container .inner-container .indexContainer .sections .section.sec4 .gallery .gallery-con{
+  width: 100%;
+  height: auto;
+}
+.container .inner-container .indexContainer .sections .section.sec4 .gallery .gallery-con .galleryInt-top{
+  width: 100%;
+  /* flex: 0 1 1280px; */
+  height: 780px;
+  position: relative;
+}
+.container .inner-container .indexContainer .sections .section.sec4 .gallery .gallery-con .galleryInt-top>img{
+  width: 100%;
+  height: auto;
+  display: block;
+  position: absolute;
+}
+.container .inner-container .indexContainer .sections .section.sec4 .gallery .gallery-con .galleryInt-top .img-txt{
+  width: 100%;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.425);
+  color: #555;
+  z-index: 5;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  line-height: 50px;
+}
+.container .inner-container .indexContainer .sections .section.sec4 .gallery .gallery-con .intColor-bottom{
+  width: 100%;
+  height: auto;
+  border: 0;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.container .inner-container .indexContainer .sections .section.sec4 .gallery .gallery-con .intColor-bottom>ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.container .inner-container .indexContainer .sections .section.sec4 .gallery .gallery-con .intColor-bottom>ul>li{
+ flex: 1;
+ overflow: hidden;
+ cursor: pointer;
+}
+.container .inner-container .indexContainer .sections .section.sec4 .gallery .gallery-con .intColor-bottom>ul>li>img{
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: all 0.3s;
+}
+.container .inner-container .indexContainer .sections .section.sec4 .gallery .gallery-con .intColor-bottom>ul>li>img:hover{
+  transform: scale(1.1);
+}
+/* .container .inner-container .indexContainer .sections .section.sec4 .gallery .gallery-con .intColor-bottom>ul>li:hover{
+  opacity: 0.8;
+  cursor: pointer;
+} */
+.on{
+  opacity: 0.8;
+}
+/*SECTION5*/
+.container .inner-container .indexContainer .sections .section.sec5{
+  width: 100%;
+  height: auto;
+}
+.container .inner-container .indexContainer .sections .section.sec5 .sec-con{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.container .inner-container .indexContainer .sections .section.sec5 .sec-con .galleryCar{
+  flex: 0 1 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .inner-container .indexContainer .sections .section.sec5 .sec-con .galleryCar h1.title{
+  font-size: 30px;
+  text-align: center;
+  font-weight: lighter;
+  padding-bottom: 20px;
+}
+.container .inner-container .indexContainer .sections .section.sec5 .sec-con .galleryCar>ul{
+ 
+}
+.container .inner-container .indexContainer .sections .section.sec5 .sec-con .galleryCar>ul>li{
+  flex: 1;
+  height: 550px;
+}
+.container .inner-container .indexContainer .sections .section.sec5 .sec-con .galleryCar>ul>li:nth-child(1){
+  background: url(../../img/imgLS/LsGallery0.jpg) no-repeat 50%/cover;
+}
+.container .inner-container .indexContainer .sections .section.sec5 .sec-con .galleryCar>ul>li:nth-child(2){
+  background: url(../../img/imgLS/LsGallery1.jpg) no-repeat 50%/cover;
+}
+.container .inner-container .indexContainer .sections .section.sec5 .sec-con .galleryCar>ul>li:nth-child(3){
+  background: url(../../img/imgLS/LsGallery2.jpg) no-repeat 50%/cover;
+}
+/*SECTION6*/
+.container .inner-container .indexContainer .sections .section.sec6{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.container .inner-container .indexContainer .sections .section.sec6 .menuInf{
+  width: 100%;
+  height: 300px;
+  background-color: rgb(236, 236, 236);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+.container .inner-container .indexContainer .sections .section.sec6 .menuInf .topMenuInf{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+/*topMenuInf*/
+.container .inner-container .indexContainer .sections .section.sec6 .menuInf .topMenuInf>ul{
+  flex: 0 1 1280px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .inner-container .indexContainer .sections .section.sec6 .menuInf .topMenuInf>ul>li{
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.container .inner-container .indexContainer .sections .section.sec6 .menuInf .topMenuInf>ul>li span.arrow{
+  padding: 0 10px;
+  font-size: 18px;
+}
+.container .inner-container .indexContainer .sections .section.sec6 .menuInf .topMenuInf>ul>li:hover{
+  transform: scale(1.1);
+}
+/*bottomMenuInf*/
+.container .inner-container .indexContainer .sections .section.sec6 .menuInf .bottomMenuInf{
+  width: 100%;
+  height: auto;
+}
+.container .inner-container .indexContainer .sections .section.sec6 .menuInf .bottomMenuInf>ul{
+  flex: 0 1 200px;
+  display: flex;
+  justify-content: start;
+  padding: 0 110px;
+  gap: 70px;
+}
+.container .inner-container .indexContainer .sections .section.sec6 .menuInf .bottomMenuInf>ul>li{
+  width: 35px;
+  height: 35px;
+  border: 1px solid #ccc;
+  padding: 5px 3px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.container .inner-container .indexContainer .sections .section.sec6 .menuInf .bottomMenuInf>ul>li:hover{
+  border: 1px solid;
+}
+.container .inner-container .indexContainer .sections .section.sec6 .menuInf .bottomMenuInf>ul>li img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.container .inner-container .indexContainer .sections .section.sec6 .menuInf .bottomMenuInf .txt-con{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: start;
+}
+.container .inner-container .indexContainer .sections .section.sec6 .menuInf .bottomMenuInf .txt-con>ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+  gap: 20px;
+}
+.container .inner-container .indexContainer .sections .section.sec6 .menuInf .bottomMenuInf .txt-con>ul>li{
+  font-size: 12px;
+  color: #555;
+  padding: 5px 0 0 0;
+}
+
+/*반응형*/
+@media only screen and (max-width: 1190px){
+  .container .inner-container .indexContainer .sections .section.sec4 .gallery .gallery-con .galleryInt-top{
+    /* flex: 0 100%; */
+    height: 660px;
+  }
+}
+@media only screen and (max-width: 1160px){
+  .container .inner-container .indexContainer .sections .section.sec4 .gallery .gallery-con .galleryInt-top{
+    /* flex: 0 100%; */
+    height: 640px;
+  }
+}
+@media only screen and (max-width: 1146px){
+  .container .inner-container .indexContainer .sections .section.sec2 .sec-con .bottom-con{
+    height: 45px;
+  }
+  .container .inner-container .indexContainer .sections .section.sec2 .sec-con .bottom-con>ul>li{
+    padding: 5px 15px;
+    font-size: 16px;
+  }
+  .container .inner-container .indexContainer .sections .section.sec4 .gallery .gallery-con .galleryInt-top{
+    /* flex: 0 100%; */
+    height: 580px;
+  }
+}
+@media only screen and (max-width: 959px){
+  /*SECTION1*/
+  .container .inner-container .indexContainer .sections .section.sec1 .sec-con{
+    height: 480px;
+  }
+  .container .inner-container .indexContainer .sections .section.sec1 .sec-con .gallery>ul>li{
+    padding: 60px 90px;
+  }
+  .container .inner-container .indexContainer .sections .section.sec1 .sec-con .gallery>ul>li>a{
+    font-size: 35px;
+    text-align: left;
+  }
+  .container .inner-container .indexContainer .sections .section.sec1 .sec-con .gallery>ul>li .txt-con{
+    margin-top: 20px;
+  }
+  .container .inner-container .indexContainer .sections .section.sec1 .sec-con .gallery>ul>li .txt-con>p{
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .container .inner-container .indexContainer .sections .section.sec1 .sec-con .bCon .items{
+    width: 150px;
+  }
+  .container .inner-container .indexContainer .sections .section.sec1 .sec-con .bCon .items>ul>li{
+    width: 8px;
+    height: 8px;
+  }
+  /*SECTION2*/
+  /*top-con*/
+  .container .inner-container .indexContainer .sections .section.sec2 .sec-con{
+    flex: 0 1100px;
+    padding: 0 20px;
+  }
+  .container .inner-container .indexContainer .sections .section.sec2 .sec-con .top-con .inf-con .price-con{
+    /* flex: 0 1000px; */
+  }
+  .container .inner-container .indexContainer .sections .section.sec2 .sec-con .top-con .inf-con .price-con .inf-top>ul{
+    height: 33.5px;
+    /* padding: 0; */
+    text-align: center;
+  }
+  .container .inner-container .indexContainer .sections .section.sec2 .sec-con .top-con .inf-con .price-con .inf-top>ul>li{
+    flex: 1;
+    text-align: center;
+    border-right: 0;
+    margin-right: 0px;
+    padding: 5px 10px;
+  }
+  .container .inner-container .indexContainer .sections .section.sec2 .sec-con .top-con .inf-con .price-con .inf-bottom>ul{
+    height: 40px;
+    /* padding: 0; */
+    text-align: center;
+  }
+  .container .inner-container .indexContainer .sections .section.sec2 .sec-con .top-con .inf-con .price-con .inf-bottom>ul>li{
+    flex: 1;
+    text-align: center;
+    padding: 5px 0;
+    margin-left: 0px;
+    border-right: 0px solid rgb(119, 119, 119);
+    padding-right: 0px;
+  }
+  /*bottom-con*/
+  .container .inner-container .indexContainer .sections .section.sec2 .sec-con .bottom-con{
+    height: 45px;
+  }
+  .container .inner-container .indexContainer .sections .section.sec2 .sec-con .bottom-con>ul>li{
+    padding: 5px 15px;
+    font-size: 14px;
+  }
+  /*SECTION 3*/
+
+  /*SECTION 4*/
+  .container .inner-container .indexContainer .sections .section.sec4 .gallery .gallery-con .galleryInt-top{
+    /* flex: 0 100%; */
+    height: 500px;
+  }
+   /*SECTION 5*/
+   .container .inner-container .indexContainer .sections .section.sec5 .sec-con .galleryCar{
+    flex: 0 100%;
+  }
+  /*SECTION 6*/
+  .container .inner-container .indexContainer .sections .section.sec6 .menuInf{
+    height: 200px;
+  }
+  .container .inner-container .indexContainer .sections .section.sec6 .menuInf .bottomMenuInf{
+    /* height: 200px; */
+  }
+  .container .inner-container .indexContainer .sections .section.sec6 .menuInf .bottomMenuInf>ul{
+    flex: 0 200px;
+  }
+} 
+
+
+@media only screen and (max-width: 768px){
+  /*SECTION1*/
+  .container .inner-container .indexContainer .sections .section.sec1 .sec-con{
+    height: 350px;
+  }
+  .container .inner-container .indexContainer .sections .section.sec1 .sec-con .bCon .items{
+    width: 130px;
+  }
+  .container .inner-container .indexContainer .sections .section.sec1 .sec-con .bCon .items>ul>li{
+    width: 8px;
+    height: 8px;
+  }
+  /*SECTION2*/
+  /*top-con*/
+  .container .inner-container .indexContainer .sections .section.sec2 .sec-con .top-con .tName{
+    width: 600px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid; */
+    padding: 20px 0;
+    cursor: pointer;
+  }
+  .container .inner-container .indexContainer .sections .section.sec2 .sec-con{
+    flex: 0 1100px;
+    padding: 0 20px;
+  }
+  .container .inner-container .indexContainer .sections .section.sec2 .sec-con .top-con .inf-con .price-con{
+    /* flex: 0 1000px; */
+  }
+  .container .inner-container .indexContainer .sections .section.sec2 .sec-con .top-con .inf-con .price-con .inf-top>ul{
+    height: 33.5px;
+    /* padding: 0; */
+    text-align: center;
+  }
+  .container .inner-container .indexContainer .sections .section.sec2 .sec-con .top-con .inf-con .price-con .inf-top>ul>li{
+    flex: 1;
+    text-align: center;
+    border-right: 0;
+    margin-right: 0px;
+    padding: 5px 10px;
+  }
+  .container .inner-container .indexContainer .sections .section.sec2 .sec-con .top-con .inf-con .price-con .inf-bottom>ul{
+    height: 40px;
+    /* padding: 0; */
+    text-align: center;
+  }
+  .container .inner-container .indexContainer .sections .section.sec2 .sec-con .top-con .inf-con .price-con .inf-bottom>ul>li{
+    flex: 1;
+    text-align: center;
+    padding: 5px 0;
+    margin-left: 0px;
+    border-right: 0px solid rgb(119, 119, 119);
+    padding-right: 0px;
+  }
+  /*bottom-con*/
+  .container .inner-container .indexContainer .sections .section.sec2 .sec-con .bottom-con{
+    height: 45px;
+  }
+  .container .inner-container .indexContainer .sections .section.sec2 .sec-con .bottom-con>ul>li{
+    padding: 5px 30px;
+    font-size: 16px;
+  }
+  .container .inner-container .indexContainer .sections .section.sec2 .sec-con .bottom-con>ul>li.arr{
+    display: none;
+  }
+  /*SECTION 3*/
+  .container .inner-container .indexContainer .sections .section.sec3 .sec-con .galleryDesignLs .main{
+    width: 500px;
+  }
+  /*SECTION 4*/
+  .container .inner-container .indexContainer .sections .section.sec4 .gallery .gallery-con .galleryInt-top{
+    /* flex: 0 100%; */
+    height: 440px;
+  }
+  /*SECTION 5*/
+  .container .inner-container .indexContainer .sections .section.sec5 .sec-con .galleryCar{
+    flex: 0 100%;
+  }
+  /*SECTION 6*/
+  .container .inner-container .indexContainer .sections .section.sec6 .menuInf{
+    height: 200px;
+  }
+  .container .inner-container .indexContainer .sections .section.sec6 .menuInf .bottomMenuInf{
+    /* height: 200px; */
+  }
+  .container .inner-container .indexContainer .sections .section.sec6 .menuInf .bottomMenuInf>ul{
+    flex: 0 200px;
+  }
+}
+
+@media only screen and (max-width: 640px){
+  /*SECTION1*/
+  .container .inner-container .indexContainer .sections .section.sec1 .sec-con{
+    height: 300px;
+    /* padding: 0; */
+  }
+  .container .inner-container .indexContainer .sections .section.sec1 .sec-con .bCon .items{
+    width: 100px;
+  }
+  .container .inner-container .indexContainer .sections .section.sec1 .sec-con .bCon .items>ul>li{
+    width: 8px;
+    height: 8px;
+  }
+  /*SECTION2*/
+  .container .inner-container .indexContainer .sections .section.sec2 .sec-con .left-con{
+    display: none;
+  }
+  .container .inner-container .indexContainer .sections .section.sec2 .right-con .rwd-con{
+    display: block;
+  }
+  .container .inner-container .indexContainer .sections .section.sec2 .sec-con .right-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 0px solid rgb(168, 168, 168);
+    margin-left: 0px;
+    padding: 0 0 0 0;
+  }
+  /*SECTION 3*/
+  .container .inner-container .indexContainer .sections .section.sec3 .sec-con{
+    margin: 0 auto;
+  }
+  .container .inner-container .indexContainer .sections .section.sec3 .sec-con .main-type>ul{
+    gap: 3px;
+  }
+  .container .inner-container .indexContainer .sections .section.sec3 .sec-con .main-type>ul>li{
+    border: 1px solid rgb(168, 168, 168);
+    padding: 10px 14px;
+    font-size: 10px;
+  }
+  .container .inner-container .indexContainer .sections .section.sec3 .sec-con .desc>ul{
+    padding: 0 10px;
+    grid-template-rows: minmax(30px , auto) repeat(4, minmax(30px ,auto));
+    grid-template-columns: repeat(1, 1fr);
+    /* gap: 15px; */
+  }
+  /*SECTION 4*/
+  .container .inner-container .indexContainer .sections .section.sec4 .gallery .gallery-con .galleryInt-top{
+    /* flex: 0 100%; */
+    height: 380px;
+  }
+   /*SECTION 5*/
+   .container .inner-container .indexContainer .sections .section.sec5 .sec-con .galleryCar{
+    flex: 0 100%;
+  }
+  /*SECTION 6*/
+  /*topMenuInf*/
+  .container .inner-container .indexContainer .sections .section.sec6 .menuInf{
+    padding: 20px 0;
+  }
+  .container .inner-container .indexContainer .sections .section.sec6 .menuInf .topMenuInf{
+    padding: 20px 0;
+  }
+  .container .inner-container .indexContainer .sections .section.sec6 .menuInf .topMenuInf>ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 100px;
+  }
+  .container .inner-container .indexContainer .sections .section.sec6 .menuInf .topMenuInf>ul>li{
+    cursor: pointer;
+    transition: all 0.2s;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  .container .inner-container .indexContainer .sections .section.sec6 .menuInf .topMenuInf>ul>li span.arrow{
+    display: none;
+  }
+  /*bottomMenuInf*/
+  .container .inner-container .indexContainer .sections .section.sec6 .menuInf .bottomMenuInf>ul>li{
+    display: none;
+  }
+  .container .inner-container .indexContainer .sections .section.sec6 .menuInf .bottomMenuInf{
+    background-color: rgb(218, 218, 218);
+    padding: 10px 0 20px 0;
+  }
+  .container .inner-container .indexContainer .sections .section.sec6 .menuInf .bottomMenuInf .txt-con>ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 100px;
+    gap: 0px;
+    cursor: pointer;
+  }
+  .container .inner-container .indexContainer .sections .section.sec6 .menuInf .bottomMenuInf .txt-con>ul>li{
+    font-size: 16px;
+    color: #555;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(156, 156, 156);
+    transition: all 0.2s;
+  }
+  .container .inner-container .indexContainer .sections .section.sec6 .menuInf .bottomMenuInf .txt-con>ul>li:hover{
+    transform: scale(1.1);
+  }
+} 
+@media only screen and (max-width: 440px){
+  
+
+  /*SECTION 4*/
+  .container .inner-container .indexContainer .sections .section.sec4 .gallery .gallery-con .galleryInt-top{
+    /* flex: 0 100%; */
+    height: 255px;
+  }
+   /*SECTION 5*/
+   .container .inner-container .indexContainer .sections .section.sec5 .sec-con .galleryCar{
+    flex: 0 100%;
+  }
+  /*SECTION 6*/
+
+}
+@media only screen and (max-width: 340px){
+  
+
+  /*SECTION 4*/
+  .container .inner-container .indexContainer .sections .section.sec4 .gallery .gallery-con .galleryInt-top{
+    /* flex: 0 100%; */
+    height: 80px;
+  }
+   /*SECTION 5*/
+   .container .inner-container .indexContainer .sections .section.sec5 .sec-con .galleryCar{
+    flex: 0 100%;
+  }
+}

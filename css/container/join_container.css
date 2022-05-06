@@ -1,0 +1,213 @@
+@charset "utf-8";
+#wrap{
+  width: 100%;
+  height: auto;
+}
+/*join_container*/
+.container{
+  width: 100%;
+  height: auto;
+  background: url(../../imgBg/bgJoin.jpg) no-repeat 50%/cover;
+}
+.container .inner-container{
+
+}
+.container .inner-container .joinContainer{
+  width: 100vw;
+  height: auto;
+  /* height: calc( 100% - 104px - 383.5px); */
+  padding: 120px 0 50px 0;
+}
+.container .inner-container .joinContainer .inner-join{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .inner-container .joinContainer .inner-join .join-con{
+  flex: 0 1 450px;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: rgba(240, 248, 255, 0.555);
+  border-radius: 5px;
+}
+.container .inner-container .joinContainer .inner-join .join-con h1.title{
+  height: 80px;
+  text-align: center;
+  font-size: 25px;
+  line-height: 80px;
+  font-weight: lighter;
+  /* color: #888; */
+  background-image: linear-gradient(40deg,#555, #fff,#555,#fff,#555,#fff, #555, #fff,#555,#fff, #555, #fff );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-shadow: 0px 0.5px 0.4px rgba(46, 46, 46, 0.507);
+}
+.container .inner-container .joinContainer .inner-join .join-con span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  margin-bottom: 20px;
+  color: #888;
+  background-color: rgba(255, 255, 255, 0.527);
+  padding: 3px 0;
+}
+.container .inner-container .joinContainer .inner-join .join-con .join-form{
+  width: 100%;
+  height: auto;
+}
+.container .inner-container .joinContainer .inner-join .join-con .join-form ul{
+  box-sizing: border-box;
+  margin-top: 60px;
+  margin-left: 5px;
+}
+.container .inner-container .joinContainer .inner-join .join-con .join-form ul>li{
+  line-height: 20px;
+  font-size: 14px;
+  padding: 5px;
+  margin-right: 5px;
+  /* box-sizing: border-box; */
+  display: flex;
+  justify-content: space-between;
+}
+.container .inner-container .joinContainer .inner-join .join-con .join-form ul>li label{
+  display: block;
+  width: 20%;
+  height: 40px;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  color: #555;
+  border: 1px solid #fff;
+  /* box-sizing: border-box; */
+}
+.container .inner-container .joinContainer .inner-join .join-con .join-form ul>li .right-con{
+  width: 79%;
+}
+.container .inner-container .joinContainer .inner-join .join-con .join-form ul>li .right-con input{
+  padding: 6px 8px;
+  width: 94%;
+  border: 0;
+  line-height: 30px;
+}
+.container .inner-container .joinContainer .inner-join .join-con .join-form ul>li .right-con input:focus{
+  background-color: #fff;
+  outline: 0;
+  color: blue;
+}
+.container .inner-container .joinContainer .inner-join .join-con .join-form ul>li{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.container .inner-container .joinContainer .inner-join .join-con .join-form ul>li .li-con{
+  padding: 0 10px;
+}
+.container .inner-container .joinContainer .inner-join .join-con .join-form ul>li .li1-con input[type=text]{
+  position: relative;
+  width: 316px;
+  padding: 13px 0 13px 5px;
+  text-align: center;
+  border: 0;
+  text-align: left;
+} 
+.container .inner-container .joinContainer .inner-join .join-con .join-form ul>li.br .li1-con select{
+  padding: 10px 0px;
+  margin-left: 3px;
+  border: 2px solid rgb(226, 226, 226);
+  text-align: center;
+}
+.container .inner-container .joinContainer .inner-join .join-con .join-form ul>li.br .li1-con input[type=text]{
+  position: relative;
+  width: 99px;
+  padding: 10px 0px;
+  text-align: center;
+  border: 2px solid rgb(226, 226, 226);
+} 
+.container .inner-container .joinContainer .inner-join .join-con .join-form ul>li.br .li1-con select{
+  padding: 10px 0;
+}
+.container .inner-container .joinContainer .inner-join .join-con .join-form ul>li.br .li-con{
+  padding: 0 10px;
+}
+.container .inner-container .joinContainer .inner-join .join-con .join-form ul>li.br .li2-con select{
+  width: 210px;
+  padding: 10px 5px;
+  line-height: 40px;
+  margin-left: 3px;
+  border: 2px solid rgb(226, 226, 226);
+  text-align: center;
+} 
+.container .inner-container .joinContainer .inner-join .join-con .join-form ul>li.sub{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.container .inner-container .joinContainer .inner-join .join-con .join-form ul>li.sub .menu-con{
+  box-sizing: border-box;
+}
+.container .inner-container .joinContainer .inner-join .join-con .join-form ul>li.sub .menu-con input{
+  padding: 15px 40px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(11, 3, 87);
+  cursor: pointer;
+  border: 0;
+  margin-bottom: 30px;
+  box-shadow: 0 1px 0.5px #ccc;
+  transition: all 0.3s;
+}
+.container .inner-container .joinContainer .inner-join .join-con .join-form ul>li.sub .menu-con input:hover{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.container .inner-container .joinContainer .inner-join .join-con .join-form ul>li.sub .menu-con input:active{
+  transform: scale(0.97);
+}
+/*반응형*/
+@media only screen and (max-width: 768px){
+  .container .inner-container .joinContainer{
+    height: auto;
+    /* padding: 110px 0 60px 0; */
+    padding-top: 105px;
+    padding-bottom: 50px;
+  }
+  .container .inner-container .joinContainer .inner-join .join-con .join-form{
+    width: 100%;
+    height: 610px;
+    margin: 0 auto;
+  }
+  .container .inner-container .joinContainer .inner-join .join-con{
+    flex: 0 0 450px;
+    padding: 5px 0 40px 0;
+  }
+  .container .inner-container .joinContainer .inner-join .join-con h1.title{
+    height: 60px;
+    font-size: 20px;
+    line-height: 60px;
+  }
+  .container .inner-container .joinContainer .inner-join .join-con span{
+    font-size: 10px;
+    margin-bottom: 10px;
+    padding: 3px 0;
+  }
+  .container .inner-container .joinContainer .inner-join .join-con .join-form ul{
+    margin-top: 30px;
+  }
+  .container .inner-container .joinContainer .inner-join .join-con .join-form ul>li.br .li1-con{
+    padding: 5px 7px;
+    line-height: 40px;
+  }
+  .container .inner-container .joinContainer .inner-join .join-con .join-form ul>li.br .li1-con select{
+    padding: 10px 7px;
+    margin-left: 3px;
+  }
+  .container .inner-container .joinContainer .inner-join .join-con .join-form ul>li.br .li1-con input[type=text]{
+    position: relative;
+    width: 80px;
+    padding: 10px 5px;
+  }
+} 
+@media only screen and (max-width: 640px){
+
+} 

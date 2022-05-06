@@ -1,0 +1,227 @@
+
+body{
+  font-family: 'Nanum Gothic', sans-serif;
+}
+#wrap{
+  width: 100%;
+  height: auto;
+}
+/*login_container*/
+.container{
+ 
+}
+.container .inner-container{
+  
+}
+.container .inner-container .loginContainer{
+ 
+}
+.container .inner-container .loginContainer .sections{
+  width: 100%;
+  height: auto;
+}
+.container .inner-container .loginContainer .sections .section-sec1{
+  width: 100vw;
+  height: 100vh;
+  /* height: calc( 100% - 20% -50% - 104px - 383.5px); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+}
+.container .inner-container .loginContainer .sections .section.sec1 .login-con{
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background: url(../../imgIcon/lexusLogin.jpeg) no-repeat 50%/cover;
+  /* position: absolute; */
+}
+.container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form{
+  flex: 0 1 700px;
+  /* background: linear-gradient(15deg,rgb(70, 70, 70), rgb(255, 255, 255), rgb(66, 66, 66) ); */
+  background-color: rgba(219, 246, 255, 0.507);
+  border-radius: 5px;
+  box-shadow: 4px 6px 6px rgb(2, 2, 39);
+  box-sizing: border-box;
+  padding: 20px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  /* z-index: 1; */
+}
+.container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form h1.title{
+  height: 80px;
+  text-align: center;
+  font-size: 25px;
+  line-height: 80px;
+  font-weight: lighter;
+  /* color: #888; */
+  background-image: linear-gradient(35deg,#555, #fff,#555,#fff,rgb(116, 116, 116),#fff, #555, #fff,#555,#fff,#555 );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-shadow: 0px 1px 0.5px rgba(36, 36, 36, 0.692);
+}
+.container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form .form-con{
+
+}
+.container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form .form-con ul{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px 50px;
+  border: 0.5px solid #fff;
+  background-color: rgba(165, 213, 253, 0.438);
+  border-radius: 5px;
+}
+.container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form .form-con ul li{
+  /* border: 1px solid; */
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form .form-con ul li label{
+  font-weight: lighter;
+  letter-spacing: 2px;
+  display: block;
+  /* padding: 5px 0; */
+  box-sizing: border-box;
+  line-height: 30px;
+  font-size: 14px;
+  color: rgb(97, 97, 97);
+}
+.container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form .form-con ul li input{
+  display: block;
+  width: 100%;
+  line-height: 30px;
+  font-size: 12px;
+  border: 0;
+  box-sizing: border-box;
+  padding: 2px 10px;
+  background-color: black;
+  border-radius: 5px;
+}
+.container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form .form-con ul li input:focus{
+  background-color: #fff;
+  outline: 0;
+  color: blue;
+}
+.container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form .form-con ul li.sr1{
+  padding: 0 0 10px 0;
+} 
+.container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form .form-con ul li a{
+  font-size: 12px;
+  color: rgb(97, 97, 97);
+  border-bottom: 1px solid rgb(97, 97, 97);
+  transition: all 0.2s;
+}
+.container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form .form-con ul li a:hover{
+  border-bottom: 0;
+}
+.container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form .form-con ul li a:active{
+  font-size: 11.5px;
+}
+.container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form .form-con ul li.check{
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  line-height: 15px;
+  font-size: 12px;
+  padding: 5px 5px 15px 0;
+  box-sizing: border-box;
+}
+.container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form .form-con ul li.check input{
+  background-color: blue;
+  display: block;
+  width: 15px;
+  height: 15px;
+}
+.container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form .form-con ul li.li1{
+
+}
+.container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form .form-con ul li.li1 .loginOk{
+  background-color: rgb(0, 1, 63);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  box-shadow: 0 2px 2px #000;
+  margin-bottom: 50px;
+}
+.container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form .form-con ul li.li1 .loginOk:hover{
+  background-color: rgb(0, 3, 155);
+  color: rgb(255, 255, 255);
+}
+.container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form .form-con ul li.li1 .loginOk:active{
+  transform: scale(0.97);
+}
+.container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form .form-con ul li.li2 span{
+  font-size: 12px;
+  text-align: start;
+  padding: 20px 0 0 5px;
+}
+.container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form .form-con ul li.li2 a{
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(0, 1, 63);
+}
+.container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form .form-con ul li.li2 a:hover{
+  font-size: 14px;
+  font-weight: lighter;
+  color: rgb(0, 3, 155);
+}
+.container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form .form-con ul li.li2 a:active{
+  font-size: 12px;
+}
+/*=================================================*/
+/*반응형*/
+@media only screen and (max-width: 768px){
+  .container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form{
+    flex: 0 0 700px;
+    height: 450px;
+    /* padding: 0; */
+  }
+  .container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form h1.title{
+    height: 60px;
+    font-size: 20px;
+    line-height: 60px;
+  }
+  .container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form .form-con ul{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 6px 40px;
+    border: 0.5px solid #fff;
+    background-color: rgba(165, 213, 253, 0.438);
+    border-radius: 5px;
+  }
+  .container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form .form-con ul li.li2 span{
+    padding: 7px 0 0 5px;
+  }
+  .container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form .form-con ul li.li1 .loginOk{
+    margin-bottom: 20px;
+  }
+} 
+@media only screen and (max-width: 640px){
+  .container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form{
+    flex: 0 0 600px;
+    height: 390px;
+    /* padding: 0; */
+  }
+  .container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form h1.title{
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form .form-con ul{
+    height: 300px;
+    gap: 0px;
+    padding: 5px;
+  }
+  .container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form .form-con ul li.li2 span{
+    padding: 7px 0 0 5px;
+  }
+  .container .inner-container .loginContainer .sections .section.sec1 .login-con .login-form .form-con ul li.li1 .loginOk{
+    margin-bottom: 20px;
+  }
+} 
+
+ 
